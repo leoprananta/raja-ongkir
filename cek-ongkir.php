@@ -16,7 +16,7 @@
 	  CURLOPT_POSTFIELDS => "origin=".$kota_asal."&destination=".$kota_tujuan."&weight=".$berat."&courier=".$kurir."",
 	  CURLOPT_HTTPHEADER => array(
 	    "content-type: application/x-www-form-urlencoded",
-	    "key: 674e46cf1c25c81d5f6886a21892abf1"
+	    "key: YOUR API KEY"
 	  ),
 	));
 	$response = curl_exec($curl);

@@ -12,7 +12,7 @@ switch ($_GET['q']) {
 		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		  CURLOPT_CUSTOMREQUEST => "GET",
 		  CURLOPT_HTTPHEADER => array(
-		    "key: 674e46cf1c25c81d5f6886a21892abf1"
+		    "key: YOUR API KEY"
 		  ),
 		));
 		$response = curl_exec($curl);
@@ -36,7 +36,7 @@ switch ($_GET['q']) {
 		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		  CURLOPT_CUSTOMREQUEST => "GET",
 		  CURLOPT_HTTPHEADER => array(
-		    "key: 674e46cf1c25c81d5f6886a21892abf1"
+		    "key: YOUR API KEY"
 		  ),
 		));
 		$response = curl_exec($curl);
